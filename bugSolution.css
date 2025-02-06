@@ -1,0 +1,15 @@
+/* Correct usage of calc() */
+.element {
+  width: calc(100% - 10px);
+  height: calc(100px + 5em);
+}
+
+/* Incorrect usage of calc() with extra spaces */
+/*.element {
+  width: calc( 100% - 10px );
+}*/
+
+/* Incorrect usage of calc() with incompatible units */
+/*.element {
+  width: calc(100px + 5%);
+}*/
